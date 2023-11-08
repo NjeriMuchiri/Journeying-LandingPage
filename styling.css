@@ -11,9 +11,10 @@
 .nav-link{
     font-weight: 600;
 }
-.nav-link:hover {
+.nav-link:hover
+{
     color: #efcc00 !important;
-  }
+}
 body
 {
     min-height: 180vh;
@@ -79,4 +80,15 @@ font-size: 50px;
     font-size:50px;
     vertical-align:baseline;
     color:#ffc40c;
+}
+.btn-info
+{
+    display: flex;
+    align-items: center;
+}
+.journ-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
