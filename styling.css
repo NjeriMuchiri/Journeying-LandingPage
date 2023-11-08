@@ -1,0 +1,16 @@
+.logo-journ
+{
+ max-width: 280px;
+}
+.header-nav
+{
+  font-size: 20px !important;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+}
+.nav-link{
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #efcc00 !important;
+  }
