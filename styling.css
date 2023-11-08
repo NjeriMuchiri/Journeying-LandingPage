@@ -38,11 +38,45 @@ font-size: 50px;
     height:3px;
     position:absolute;
     left:0;
-    margin-left:620px;
+    margin-left:550px;
     background: #fefefe;
   }
   @media screen and (max-width:768px){
     .header-title::after{
-        margin-left: 180px;
+        margin-left: 160px;
     }
   }
+.intro-class
+{
+  position:relative;
+  display:block;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+  margin-left:25px;
+  margin-top: 60px;
+  min-height:80vh; 
+  border-radius:10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width:90vw;
+}
+.intro-class .about-proj
+{
+    margin-top: 20px;
+    color: #d3d3d3;
+}
+.about-proj
+{
+  text-indent:50px;
+  text-align: center;
+  color:hsl(210, 31%, 80%);
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+  padding-left:30px;
+  font-size:20px;
+}
+.about-proj span
+{
+    font-size:50px;
+    vertical-align:baseline;
+    color:#ffc40c;
+}
