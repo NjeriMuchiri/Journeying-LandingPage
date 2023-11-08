@@ -14,3 +14,35 @@
 .nav-link:hover {
     color: #efcc00 !important;
   }
+body
+{
+    min-height: 180vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("images/backie.jpg") center/cover no-repeat fixed ;
+    object-fit: cover;
+    -o-object-fit: cover;
+    position: relative;
+    /* overflow: hidden;     */
+}
+.header-title
+{
+color: #ffcc00;
+text-align: center;
+margin-top: 30px;
+font-size: 50px;
+}
+.header-title::after{
+    content:'';
+    display: block;
+    width:100px;
+    height:3px;
+    position:absolute;
+    left:0;
+    margin-left:620px;
+    background: #fefefe;
+  }
+  @media screen and (max-width:768px){
+    .header-title::after{
+        margin-left: 180px;
+    }
+  }
