@@ -103,28 +103,8 @@ letter-spacing: 0.07em;
 }
 /* end of about styling */
 
-/* Features styling */
-/* .abt-features{
-  min-height: 70vh;
-  overflow: hidden;
-}
-.abt-features > h1
-{
-  color:#ffc40c;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.1em;
-  margin-top: 20px;
-}
-.feature-images
-{
-  display: flex;
-  justify-content: space-between;
-}
-.feature-images:nth-child(1)
-{
-  max-width: 33.33;
-} */
+
+/* start of features styling */
 
 *,
 *::before,
@@ -184,6 +164,7 @@ letter-spacing: 0.07em;
   text-align: center;
 }
 
+
 /* end of features styling */
 
 /* about features */
@@ -196,7 +177,7 @@ letter-spacing: 0.07em;
 @media screen and (max-width:768px){
   .about-me
 {
-  min-height:100vh;
+  min-height:150vh;
   overflow: hidden;
 }
 }
@@ -223,6 +204,13 @@ letter-spacing: 0.07em;
   color:#f2f3f4 ;
   font-size: 18px;
   letter-spacing: 0.07em;
+}
+.list-things
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 /* end of about features */
 
